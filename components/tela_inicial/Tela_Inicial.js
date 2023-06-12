@@ -15,7 +15,7 @@ export default function TelaInicial(props) {
                         onPress={() => { props.navigation.navigate('Ordem de Servico') }}
                         style={estilos.botao}
                     >
-                        <Text style={estilos.textoBotao}>Ordem de Serviço</Text>
+                        <Text style={estilos.textoBotao}>Ordem de Serviço 1</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity
