@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const estilos = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#D3D3D3',
+        //backgroundColor: '#D3D3D3',
         alignItems: 'center',
     },
     scrollView: {
@@ -11,7 +11,7 @@ const estilos = StyleSheet.create({
         borderRadius: 50
     },
     viewScroll: {
-        marginBottom: 200,
+        marginBottom: 10,
     },
     texto: {
         color: 'white',
@@ -33,6 +33,9 @@ const estilos = StyleSheet.create({
         fontSize: 35,
         textAlign: 'center',
         padding: 20
+    },
+    imgFundoApp: {
+        
     }
 });
 
